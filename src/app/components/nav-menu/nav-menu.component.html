@@ -1,0 +1,19 @@
+<div class="header" role="banner">
+    <nav>
+        <input type="checkbox"  id="checkMenu">
+        <label for="checkMenu" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a [routerLink]="['/welcome']" class="logo">TenStore</a>
+        <ul>            
+            <li><a href="#">Facturas</a>
+                <ul>
+                    <li [routerLink]="['/emision']">Emisión</li>
+                    <li [routerLink]="['/consulta']">Consulta</li>                    
+                </ul>
+            </li>            
+        </ul>
+    </nav>    
+</div>
+
+

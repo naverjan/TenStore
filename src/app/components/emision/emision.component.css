@@ -1,0 +1,33 @@
+
+article {
+    padding-top: 100px;   
+}
+
+.rejilla {    
+    display: grid;
+    grid-template-columns: 400px 400px;    
+    justify-content: center;
+}
+
+label{    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left  !important;    
+    margin-top: 15px;
+}
+
+
+.form-group{
+    padding: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+.btn-secondary{
+    background-color: gray;
+    padding: 5px;
+    font-size: 12px;
+}
