@@ -25,7 +25,7 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: WelcomeComponent, pathMatch: 'full'},
-      { path: 'welcome', component: WelcomeComponent },
+      { path: 'bienvenido', component: WelcomeComponent },
       { path: 'emision', component: EmisionComponent },
       { path: 'consulta', component: ConsultaComponent }
     ])

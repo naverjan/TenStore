@@ -1,18 +1,26 @@
-
 <article>
     <form>
         <div class="rejilla">
             <div class="form-group">
                 <label for="clientName"> Nombre cliente:</label>
                 <input type="text" id="clientName" name="clientName" placeholder="Ingrese el nombre">
-            </div>                
+            </div>
             <div class="form-group">
                 <label for="clientNit"> NIT|CC Cliente:</label>
                 <input type="text" id="clientNit" name="clientNit" placeholder="Ingrese el NIT|CC">
-            </div>            
-            <div>
-                <button class="btn btn-secondary">Add Product</button>
             </div>
-        </div>        
+            <div>
+                <button class="btn btn-secondary" (click)="showModal()">Agregar Productos</button>
+            </div>
+        </div>
     </form>
 </article>
+
+<!-- Modal -->
+<div class="modal" *ngIf="modalVisible">
+    <div class="modal-contenido">
+        <a (click)="showModal()">X</a>
+        <h2>Mi primer Modal</h2>
+        <p>Este es mi primera ventana modal sin utilizar JavaScript.</p>
+    </div>
+</div>
